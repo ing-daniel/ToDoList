@@ -1,0 +1,30 @@
+.container-list{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+
+  .show-item{
+    display: block;
+  }
+  .display-none{
+    display: none;
+  }
+
+  footer{
+    display: flex;
+
+    div{
+      margin: 0 1rem;
+    }
+    
+  }
+
+  .length-items{
+    position: absolute;
+    right: 0;
+  }
+  ul{
+    height: 50vh;
+    overflow: auto;
+  }
+}
